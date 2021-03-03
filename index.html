@@ -31,6 +31,7 @@
 								<li><a href="#top" id="top-link"><span class="icon fa-home">トップ</span></a></li>
 								<li><a href="#news" id="news-link"><span class="icon fa-calendar-check-o">最新情報</span></a></li>
 								<li><a href="#aboutme" id="aboutme-link"><span class="icon fa-user">自己紹介</span></a></li>
+								<li><a href="#research" id="research-link"><span class="icon fa-desktop">研究紹介</span></a></li>
 								<li><a href="#publication" id="publication-link"><span class="icon fa-book">研究業績</span></a></li>
 								<li><a href="#link" id="link-link"><span class="icon fa-external-link">リンク</span></a></li>
 							</ul>
@@ -89,12 +90,6 @@
                 <div class="ref">
                   <div>R. Hayakawa and K. Hayashi, </div>
                   <div>"Asymptotic performance of discrete-valued vector reconstruction via box-constrained optimization with sum of <i>l</i><sub>1</sub> regularizers"</div>
-                </div>
-              </li>
-              <li>
-                <div> <b>2020年2月27日</b> </div>
-                <div>
-                  第16回 <a href="https://www.ieee-jp.org/section/kansai/award/student.html">IEEE関西支部 学生研究奨励賞</a>を受賞しました．
                 </div>
               </li>
             </ul>
@@ -170,7 +165,7 @@
 
             <h3>担当授業</h3>
             <ul class="list">
-              <li> 2020年度：知能システム学実験A（画像処理），知能システム学セミナー </li>
+              <li> 2020年度：知能システム学実験A（画像処理），知能システム学ゼミナール </li>
             </ul>
             
             <h3>教育活動</h3>
@@ -191,8 +186,55 @@
           </div>
         </section>
 
+        <section id="research" class="two">
+          <div class="container CLleft">
+
+            <header>
+              <h2>研究紹介</h2>
+            </header>
+
+            <h3 class="theme">圧縮センシングのための最適化手法に関する理論解析</h3>
+
+            <figure>
+              <img src="images/CSanalysis.png">
+            </figure>
+            <div>
+              対象とする信号の性質を事前情報として活用することで，より高度な信号処理が可能となります．
+              例えば，少ない観測データからスパース信号（ほとんどの値が0となる信号）を推定する技術は圧縮センシングと呼ばれ，画像処理や無線通信などの様々な工学の分野に応用されています．
+              このような信号の性質を活用する信号処理には，数理的にも興味深い点が数多くあります．
+            </div>
+            <div class="paragraph">
+              現在は，圧縮センシングなどのための凸最適化問題や最適化アルゴリズムに関する理論解析を行っています．
+              これらの理論解析結果は，最適化問題のパラメータ設定や最適化アルゴリズムの設計に役立つことが期待されます．
+            </div>
+            <div>
+              <ul class="list">
+                <li> 
+                  R. Hayakawa, "Asymptotic analysis of ADMM for compressed sensing," arXiv preprint, arXiv:2009.08545.
+                </li>
+                <li>
+                  R. Hayakawa and K. Hayashi, "Asymptotic performance of discrete-valued vector reconstruction via box-constrained optimization with sum of <i>l</i><sub>1</sub> regularizers," IEEE Transactions on Signal Processing, vol. 68, pp. 4320-4335, Aug. 2020. 
+                </li>
+              </ul>
+            </div>
+
+            <h3 class="theme">画像処理アルゴリズムの開発や設計</h3>
+            
+            <figure>
+              <img src="images/ImageProcessing.png">
+            </figure>
+            <div>
+              画像処理においては，画像の性質（滑らかさや低ランク性など）を活用することによってその性能を向上させることができます．
+            </div>
+            <div class="paragraph">
+              現在は，画像のための高性能なノイズ除去手法を最適化アルゴリズムに組み込むアプローチに関する研究や，位相の情報が失われた観測からの画像再構成（位相回復問題）に関する研究などを行っています．
+            </div>
+
+          </div>
+        </section>
+
 				<!-- Publication -->
-					<section id="publication" class="two">
+					<section id="publication" class="three">
 						<div class="container CLleft">
 
 							<header>
@@ -494,6 +536,7 @@
                   <div>"非凸スパース正則化とグループスパース性を用いた過負荷MU-MIMO OFDM/SC-CP信号検出法の検討," </div>
                   <div>
                     電子情報通信学会技術研究報告, vol. 120, no. 292, RCC2020-11, pp. 1-6, 2020年12月. 
+                    【オーラルセッション研究奨励賞】
                   </div>
                 </li>
                 <li>
@@ -709,7 +752,7 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="link" class="three">
+					<section id="link" class="two">
 						<div class="container CLleft">
 
 							<header>
@@ -734,7 +777,7 @@
 					<ul class="copyright">
             <li>&copy; Ryo Hayakawa</li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            <li>Last update: December 14, 2020</li>
+            <li>Last update: March 3, 2021</li>
 					</ul>
 
 			</div>

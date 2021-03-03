@@ -2615,10 +2615,26 @@ input, select, textarea {
   /* text-align: left; */
   font-size: 0.9em; /* mine */
 }
+
 .CLleft {
   text-align: left; /* mine */
 }
  
 .ref {
 	color: #E27689;
+}
+
+figure img {
+	float: right;
+	max-width: 40%;
+	margin: 0 0 20px 25px;
+}
+
+.theme {
+	clear: both;
+	margin-bottom: 15px
+}
+
+.paragraph {
+	text-indent: 1em;
 }
